@@ -1,0 +1,15 @@
+l = []
+c = int(input("Enter Number of Elements: "))
+for i in range(c):
+    e = int(input("Enter a Number: "))
+    l.append(e)
+n1 = max(l[0], l[1])
+n2 = min(l[0], l[1])
+for i in range(2, len(l)):
+    if l[i] > n1:
+        n2 = n1
+        n1 = l[i]
+    elif l[i] > n2 and l[i] != n1:
+        n2 = l[i]
+    
+print("Second largest number:",n2)
