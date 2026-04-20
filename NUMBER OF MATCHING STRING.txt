@@ -1,0 +1,11 @@
+# Python program to count number of matching string.
+
+def MATCH(word):
+   c = 0
+   for i in word:
+      if len(i) >= 2 and i[0] == i[-1]:
+         c +=1
+      return c
+wordl = input("Enter words with space: ").split()
+result = MATCH(wordl)
+print("Count of Matching Strings: ",result)

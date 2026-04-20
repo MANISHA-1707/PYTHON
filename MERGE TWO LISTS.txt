@@ -1,0 +1,9 @@
+# Python program to merge 2 lists.
+
+def merge(l1,l2):
+   m = l1+l2
+   m.sort()
+   return m
+l1 = [12,23,45]
+l2 = [56,67,78]
+print("Sorted List: ",merge(l1,l2))

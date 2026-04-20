@@ -1,0 +1,10 @@
+# Python program to count how many odd and even numbers.
+
+def count():
+   num = input("Enter the numbers: ").split()
+   num = [int(i) for i in num]
+   odd = sum(1 for i in num if i%2!=0)
+   even = len(num)-odd
+   print("Odd Number: ",odd)
+   print("Even Number: ",even)
+count()

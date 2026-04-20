@@ -1,0 +1,19 @@
+# Python program to print size ,greatest and minimum values and average.
+
+def colour(col):
+   return len(col)
+col = ["black","red","pink","blue","black"]
+print("Length:",colour(col))
+def greatmin(num):
+   g = max(num)
+   m = min(num)
+   return g,m
+num = [67,89,34,23,45]
+print("Greatest and Minimum value: ",greatmin(num))
+def avg(num):
+   a = len(num)
+   b = sum(num)
+   average = b/a
+   return b,average
+num = [1,2,3,4,5,6,7,8,9,10]
+print("Sum and Average: ",avg(num))

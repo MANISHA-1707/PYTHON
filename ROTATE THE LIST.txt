@@ -1,0 +1,7 @@
+# Python program to rotate the list of string.
+
+def rotate(l,i):
+   return l[i:]+l[:i]
+l = ["hi","hello","bye","good"]
+pos = int(input("Enter a Position: "))
+print(rotate(l,pos))
