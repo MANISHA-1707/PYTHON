@@ -1,0 +1,7 @@
+# Python program to find length of a strings and concatenation.
+
+a = input("Enter first string: ")
+b = input("Enter second string: ")
+print("Length of first string: ",len(a))
+print("Length of second string: ",len(b))
+print("Concatenated String: ",a+b)

@@ -1,0 +1,7 @@
+# Python program to swap the cases of all characters in a string.
+
+def case(s):
+   return s.swapcase()
+string = input("Enter a string: ")
+swap = case(string)
+print("Result: ",swap)

@@ -1,0 +1,9 @@
+# Python program to find the longest word in a sentence.
+
+def long(s):
+   word = s.split()
+   l_word = max(word,key = len)
+   return l_word
+s = input("Enter a sentence: ")
+l_word = long(s)
+print("Longest Word: ",l_word)

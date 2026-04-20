@@ -1,0 +1,8 @@
+# Python program to count words in a sentence.
+
+def words(s):
+   word = s.split()
+   return len(word)
+s = input("Enter a Sentence: ")
+count = words(s)
+print("Number of Words: ",count)

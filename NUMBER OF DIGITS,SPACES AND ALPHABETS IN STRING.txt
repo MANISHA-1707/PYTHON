@@ -1,0 +1,16 @@
+# Python program to count number of digits,spaces and alphabets in string.
+
+def count(S):
+   d = s = a = 0
+   for i in S:
+      if i.isdigit():
+       d += 1
+      elif i.isspace():
+       s += 1
+      elif i.isalpha():
+       a += 1
+   print("Alphabets: ",a)
+   print("Digits: ",d)
+   print("Spaces: ",s)
+string = input("Enter a string: ")
+count(string)
