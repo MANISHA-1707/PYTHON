@@ -1,0 +1,15 @@
+# Python program to swap two numbers using function.
+
+def swap(a,b):
+   t = a
+   a = b
+   b = t
+   print("After swapping")
+   print("a =",a)
+   print("b =",b)
+a = int(input("Enter a number: "))
+b = int(input("Enter a number: "))
+print("Before swapping")
+print("a =",a)
+print("b =",b)
+swap(a,b)

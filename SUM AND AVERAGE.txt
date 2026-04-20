@@ -1,0 +1,11 @@
+# Python program to calculate sum and average.
+
+def sum_avg(*args):
+   n = len(args)
+   s = 0
+   for i in range(n):
+      s = s+args[1]
+      avg = s/n
+      return s,avg
+total,avg = sum_avg(10,20,30,40,50)
+print("SUM: ",total,"AVERAGE: ",avg)

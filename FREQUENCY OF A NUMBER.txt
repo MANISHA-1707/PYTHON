@@ -1,0 +1,17 @@
+# Python program to determine frequency of a number.
+
+def common(l1,l2):
+   new = []
+   for i in l1:
+            for j in l2:
+                     if(i==j):
+                             new.append(i)
+   print("Common Elements: ",new)
+   for i in new:
+      c1 = l1.count(i)
+      c2 = l2.count(i)
+   print(i,"occurs",c1,"times in list 1")
+   print(i,"occurs",c2,"times in list 2")
+l1 = [1,2,3,3,5,7,5]
+l2 = [3,5,3,5,3,5]
+common(l1,l2)

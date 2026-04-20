@@ -1,0 +1,8 @@
+# Python program to find maximum among three numbers.
+
+def f_max(N1,N2,N3):
+   return max(N1,N2,N3)
+A = float(input("Enter first number: "))
+B = float(input("Enter second number: "))
+C = float(input("Enter third number: "))
+print("Max Number: ",f_max(A,B,C))

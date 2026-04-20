@@ -1,0 +1,19 @@
+# Python program to create calculator.
+
+def add(a,b):
+   return a+b
+def sub(a,b):
+   return a-b
+def mul(a,b):
+   return a*b
+def div(a,b):
+   if b!=0:
+      return a/b
+   else:
+      print("Cannot divide")
+x = float(input("Enter first number: "))
+y = float(input("Enter second number: "))
+print("ADDITION : ",add(x,y))
+print("SUBTRACTION : ",sub(x,y))
+print("MULTIPLICATION : ",mul(x,y))
+print("DIVISION : ",div(x,y))

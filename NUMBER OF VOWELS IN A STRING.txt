@@ -1,0 +1,8 @@
+# Python program to count number of vowels in a string.
+
+def count(a):
+   v = "AEIOUaeiou"
+   c = sum(1 for i in a if i in v)
+   return c
+a = input("Enter a string: ")
+print("Count:",count(a))
