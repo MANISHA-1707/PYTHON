@@ -1,0 +1,6 @@
+# Python program to sort a dictionary and its keys in ascending order.
+
+def sort(d):
+   return dict(sorted(d.items()))
+d  = {'b':2,'a':1,'c':3,'d':4,'e':5}
+print("Result: ",sort(d))

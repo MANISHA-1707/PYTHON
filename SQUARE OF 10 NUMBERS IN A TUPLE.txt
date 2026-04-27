@@ -1,0 +1,8 @@
+# Python program to find the square of first 10 numbers.
+
+def square():
+   sl = [i**2 for i in range (1,11)]
+   return tuple(sl)
+print("Result: ",square())
+
+[24bec018@mepcolinux EXPT7]$

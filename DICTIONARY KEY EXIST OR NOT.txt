@@ -1,0 +1,13 @@
+# Python program to check the given key exists in the dictionary or not.
+
+def Key(d):
+   if key in d.keys():
+      print("Key exists")
+      print("Key =",key,"and Value =",d[key])
+      return d
+   else:
+      print("Key does not exists.")
+key = input("Enter a key: ")
+d = {'a':'apple','b':2,'c':'cat'}
+print("Dictionary:",d)
+Key(d)

@@ -1,0 +1,12 @@
+# Python program to unpack the tuple elements into four variables.
+
+def unpack(t):
+   if len(t)!= 4:
+      return 0
+   v1,v2,v3,v4 = t
+   print("Variable 1: ",v1)
+   print("Variable 2: ",v2)
+   print("Variable 3: ",v3)
+   print("Variable 4: ",v4)
+t =(45,"hi",90.8,False)
+unpack(t)

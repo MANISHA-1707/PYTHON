@@ -1,0 +1,25 @@
+p = {}
+def add(p):
+   n = input("Enter Name: ")
+   ph = int(input("Enter phone number: "))
+   p[n] = ph
+   print("Added Elements: ",p)
+
+def get(p):
+   n = input("Enter Name: ")
+   if n in p:
+      print(f"{n}: {p[n]}")
+   else:
+      print("Name not Found")
+
+def main():
+   while True:
+      a = input("Enter A or B or C: ")
+      if a == "A":
+              add(p)
+      elif a == "B":
+              get(p)
+      elif a == "C":
+              print("You are out of program")
+              break
+main()

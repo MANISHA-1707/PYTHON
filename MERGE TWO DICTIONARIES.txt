@@ -1,0 +1,9 @@
+# Python program to merge to dictionaries.
+
+def merge(d1,d2):
+   d = d1.copy()
+   d.update(d2)
+   return d
+d1 = {'a':1,'b':2}
+d2 = {'c':3,'d':4}
+print("Result: ",merge(d1,d2))

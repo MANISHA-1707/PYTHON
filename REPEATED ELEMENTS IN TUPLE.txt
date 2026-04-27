@@ -1,0 +1,7 @@
+# Python program to print repeated items in a tuple.
+
+def rep(t):
+   r = {i for i in t if t.count(i)>1}
+   return r
+t = (1,2,3,3,3,4,5,5,6,7,7)
+print("Result: ",rep(t))
