@@ -1,0 +1,7 @@
+# Python program to calculate area of circle using math module.
+
+import math
+def area(r):
+   return math.pi*r*r
+r = float(input("Enter the radius: "))
+print("Area of Circle:",area(r))
