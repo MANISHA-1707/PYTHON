@@ -1,0 +1,13 @@
+# Python program to raise ZeroDivisionError if denominator is 0.
+
+def divide(n,d):
+   try:
+      r = n/d
+      return r
+   except ZeroDivisionError:
+      print("Cannot divide by Zero.")
+   finally:
+      print("End of program.")
+n = int(input("Enter a numerator: "))
+d = int(input("Enter a denominator: "))
+print("Result:",divide(n,d))

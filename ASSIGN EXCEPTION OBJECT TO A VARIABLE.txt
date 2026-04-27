@@ -1,0 +1,11 @@
+# Python program to assign the exception object to a variable and print it.
+
+def process():
+   try:
+      uinput = input("Enter a integer: ")
+      num = int(uinput)
+      print("Your Number: ",num)
+   except ValueError as e:
+      print("Inavlid Input")
+      print("Exception Object:",e)
+process()

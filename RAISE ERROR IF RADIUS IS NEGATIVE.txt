@@ -1,0 +1,13 @@
+import math
+def area(r):
+   if r<0:
+      raise RuntimeError("Radius cannot be Negative.")
+   return math.pi*r*r
+try:
+   r = float(input("Enter a Radius: "))
+   a = area(r)
+   print("Area of the circle: ",a)
+except RuntimeError as e:
+   print("Error:",e)
+except ValueError:
+   print("Invalid input.")

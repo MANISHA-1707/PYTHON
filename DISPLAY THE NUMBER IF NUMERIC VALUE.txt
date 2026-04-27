@@ -1,0 +1,7 @@
+# Python program to display the number if the input is numeric value.
+
+try:
+   a = int(input("Enter a element: "))
+   print(a)
+except ValueError as e:
+   print("End of program")

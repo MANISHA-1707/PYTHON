@@ -1,0 +1,13 @@
+# Python program to read the list by index and display error if out of range.
+
+def index(l,i):
+   try:
+      element = l[i]
+      return element
+   except IndexError:
+      print("Index out of Range.")
+   finally:
+      ("End of the program.")
+l = [10,20,30,40,50]
+i = int(input("Enter an index: "))
+print("Result:",index(l,i))
