@@ -1,0 +1,8 @@
+# Python program to calculate cos(2pi)+sin(pi) using module.
+
+import math
+def tri():
+   a = math.cos(2*(math.pi))
+   b = math.sin(math.pi)
+   print("Result:",a+b)
+tri()

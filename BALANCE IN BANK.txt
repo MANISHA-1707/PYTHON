@@ -1,0 +1,17 @@
+# Python program to create custom lowbalance error if withdrawal exceeds balance.
+
+def withdrawal(b,a):
+   if a>b:
+      raise ValueError("Insufficient balance.")
+   return b - a
+b = 1000
+try:
+   b = withdrawal(b,1500)
+   print("Withdrawal Succesful ,Remaining Balance:",b)
+except ValueError as e:
+   print("Withdrawal failed:",e)
+try:
+   b = withdrawal(b,500)
+   print("Withdrawal successful ,Remaining Balance:",b)
+except ValueError as e:
+   print("Withdrawal failed")

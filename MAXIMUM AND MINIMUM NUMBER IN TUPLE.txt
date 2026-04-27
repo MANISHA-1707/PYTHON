@@ -1,0 +1,6 @@
+# Python program to find the maximum and minimum number in the tuple.
+
+def max_min(t):
+   return max(t),min(t)
+t = (23,78,90,54,45,78,90,23,11)
+print("Maximum and Minimum values: ",max_min(t))
